@@ -20,7 +20,7 @@ This system enables the **auto-generation of multi-layered, multi-branched rogue
 
 ## Sample Scene & Documentation
 This project includes a **sample scene and a step-by-step tutorial** to help you get started.  
-For detailed instructions, refer to **Documentation.pdf**.
+For detailed instructions, refer to **RoguelikeMapSystemGuide.pdf**.
 
 ## Contact
 📧 Email: **zackyang421@gmail.com**
