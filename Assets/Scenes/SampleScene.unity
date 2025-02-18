@@ -217,15 +217,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5998831633740239638, guid: ba167a8c79b023545ac88152cab64e9d, type: 3}
       propertyPath: pathNodeWidth
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5998831633740239638, guid: ba167a8c79b023545ac88152cab64e9d, type: 3}
       propertyPath: pathNodeLength
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5998831633740239638, guid: ba167a8c79b023545ac88152cab64e9d, type: 3}
       propertyPath: pathNodeSpacing
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6137645942672699857, guid: ba167a8c79b023545ac88152cab64e9d, type: 3}
       propertyPath: m_Sprite
@@ -435,7 +435,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Save Map Info
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -687,7 +687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b49bc585b8db2b46a3708db2e899ad1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  config: {fileID: 11400000, guid: 5df2b89dba2c6a44db2f80247bde1bf2, type: 2}
+  config: {fileID: 11400000, guid: 3b4c4a64db13588429a4191675b25ff4, type: 2}
 --- !u!114 &479177037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -839,7 +839,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Populate Map 01
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -866,8 +866,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
@@ -970,7 +970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b49bc585b8db2b46a3708db2e899ad1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  config: {fileID: 11400000, guid: 3b4c4a64db13588429a4191675b25ff4, type: 2}
+  config: {fileID: 11400000, guid: 2062240d8f88a194e93d03d08b973c0c, type: 2}
 --- !u!114 &678344379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1552,7 +1552,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Populate Map 02
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1579,8 +1579,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0

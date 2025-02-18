@@ -23,9 +23,9 @@ MonoBehaviour:
   - type: 1
     weight: 1
   mapConfigIndex: 1002
-  nodeWidth: 50
-  nodeSpacing: 50
-  layerWidth: 70
+  nodeWidth: 75
+  nodeSpacing: 75
+  layerWidth: 300
   nodeOffset: 0
   layers:
   - randomizedLayer: 0
@@ -35,42 +35,22 @@ MonoBehaviour:
     minNodeSize: 0
     maxNodeSize: 0
   - randomizedLayer: 1
-    layerNodes:
-    - {fileID: 11400000, guid: df75cf3b5b5ce7b489753a6a9716bc7a, type: 2}
-    weightedPotentialNodeTypes:
-    - type: 0
-      weight: 1
-    - type: 1
-      weight: 2
-    minNodeSize: 3
-    maxNodeSize: 5
-  - randomizedLayer: 1
-    layerNodes:
-    - {fileID: 11400000, guid: df75cf3b5b5ce7b489753a6a9716bc7a, type: 2}
-    weightedPotentialNodeTypes:
-    - type: 0
-      weight: 1
-    - type: 1
-      weight: 2
-    minNodeSize: 3
-    maxNodeSize: 5
-  - randomizedLayer: 1
-    layerNodes:
-    - {fileID: 11400000, guid: df75cf3b5b5ce7b489753a6a9716bc7a, type: 2}
+    layerNodes: []
     weightedPotentialNodeTypes:
     - type: 0
       weight: 2
     - type: 1
       weight: 1
-    minNodeSize: 3
+    minNodeSize: 2
     maxNodeSize: 5
   - randomizedLayer: 0
     layerNodes:
-    - {fileID: 11400000, guid: df75cf3b5b5ce7b489753a6a9716bc7a, type: 2}
+    - {fileID: 11400000, guid: 96037378b4c62324495f4741928a61e6, type: 2}
+    - {fileID: 11400000, guid: 823bf2f487863ab4e8797ed94eecc28e, type: 2}
     weightedPotentialNodeTypes:
     - type: 0
       weight: 2
     - type: 1
       weight: 1
-    minNodeSize: 3
+    minNodeSize: 2
     maxNodeSize: 5
