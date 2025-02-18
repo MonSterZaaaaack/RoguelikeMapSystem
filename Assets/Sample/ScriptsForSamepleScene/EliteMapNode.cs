@@ -29,13 +29,25 @@ public class EliteMapNode : MapNode
     public override void SetVisited()
     {
         nodeImage.sprite = clearedImage;
-        nodeButton.interactable = false;
+        //nodeButton.interactable = false;
         _nodeData.NodeVisited();
     }
     public override void OnClick()
     {
-
-        OnCleared();
+        if(_nodeData.nodeState == NodeState.Attandable)
+        {
+            OnCleared();
+        }
+        EliteNodeData nodeData = (EliteNodeData)_nodeData;
+        string info = "Elite Node: " + nodeData.GetLevelName();
+        List<string> ids = nodeData.GetIdList();
+        for(int i= 0; i < ids.Count; i++)
+        {
+            string id = " " + ids[i];
+            info += id;
+        }
+        Debug.Log(info);
+        
     }
 
     public override void OnLocked()
@@ -45,7 +57,7 @@ public class EliteMapNode : MapNode
             Debug.Log("Node " + gameObject.name + " Image Component Missing!");
         }
         nodeImage.sprite = lockedImage;
-        nodeButton.interactable = false;
+        //nodeButton.interactable = false;
         _nodeData.NodeLocked();
     }
 

@@ -365,14 +365,14 @@ namespace RoguelikeMap
                     case NodeType.Minions:
                         {
                             MinionPredefinedNodeData data = (MinionPredefinedNodeData)layer.layerNodes[i];
-                            curNodeData = new MinionNodeData(NodeType.Minions, nodeCounter++, nodePosition[i], NodeState.Locked, new List<int>(), new List<int>(), curLayerCount, data.LevelName);
+                            curNodeData = new MinionNodeData(NodeType.Minions, nodeCounter++, nodePosition[i], NodeState.Locked, new List<int>(), new List<int>(), curLayerCount, data.LevelName,new List<string>());
                             break;
                         }
 
                     case NodeType.Elites:
                         {
                             ElitePredefinedNodeData data = (ElitePredefinedNodeData)layer.layerNodes[i];
-                            curNodeData = new EliteNodeData(NodeType.Elites, nodeCounter++, nodePosition[i], NodeState.Locked, new List<int>(), new List<int>(), curLayerCount, data.LevelName);
+                            curNodeData = new EliteNodeData(NodeType.Elites, nodeCounter++, nodePosition[i], NodeState.Locked, new List<int>(), new List<int>(), curLayerCount, data.LevelName,new List<string>());
                             break;
                         }
 

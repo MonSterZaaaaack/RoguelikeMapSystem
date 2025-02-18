@@ -33,13 +33,25 @@ public class MinionMapNode : MapNode
             Debug.Log("Node " + gameObject.name + " Image Component Missing!");
         }
         nodeImage.sprite = clearedImage;
-        nodeButton.interactable = false;
+        //nodeButton.interactable = false;
         _nodeData.NodeVisited();
     }
     public override void OnClick()
     {
+        if (_nodeData.nodeState == NodeState.Attandable)
+        {
+            OnCleared();
+        }
+        MinionNodeData nodeData = (MinionNodeData)_nodeData;
+        string info = "MinionNode: " + nodeData.GetLevelName();
+        List<string> ids = nodeData.GetMinionIds();
+        for (int i = 0; i < ids.Count; i++)
+        {
+            string id = " " + ids[i];
+            info += id;
+        }
+        Debug.Log(info);
 
-        OnCleared();
     }
 
     public override void OnLocked()
@@ -49,7 +61,7 @@ public class MinionMapNode : MapNode
             Debug.Log("Node " + gameObject.name + " Image Component Missing!");
         }
         nodeImage.sprite = lockedImage;
-        nodeButton.interactable = false;
+        //nodeButton.interactable = false;
         _nodeData.NodeLocked();
     }
 

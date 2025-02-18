@@ -23,8 +23,8 @@ MonoBehaviour:
   - type: 1
     weight: 1
   mapConfigIndex: 1001
-  nodeWidth: 75
-  nodeSpacing: 75
+  nodeWidth: 50
+  nodeSpacing: 50
   layerWidth: 300
   nodeOffset: 0
   layers:
